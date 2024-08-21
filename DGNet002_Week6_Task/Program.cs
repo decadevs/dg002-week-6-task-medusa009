@@ -5,6 +5,23 @@ namespace DGNet002_Week6_Task
 {
     internal class Program
     {
+
+public class Item
+{
+    public int ItemId { get; set; }
+    public string ItemDes { get; set; }
+}
+
+public class Sales
+{
+    public int InvNo { get; set; }
+    public int ItemId { get; set; }
+    public int Qty { get; set; }
+}
+
+
+
+
         static void Main(string[] args)
         {
             List<string> states = new List<string>
@@ -36,6 +53,43 @@ namespace DGNet002_Week6_Task
                 Console.WriteLine($"- {state}");
             }
             Console.WriteLine();
+        }
+
+
+        // 2 
+
+        List<Item> itemList = new List<Item>
+        {
+            new Item { ItemId = 1, ItemDes = "Bag" },
+            new Item { ItemId = 2, ItemDes = "Pen" },
+            new Item { ItemId = 3, ItemDes = "Book" },
+            new Item { ItemId = 4, ItemDes = "Shoe" },
+            new Item { ItemId = 5, ItemDes = "Pin" }
+        };
+
+        List<Sales> salesList = new List<Sales>
+        {
+            new Sales { InvNo = 1, ItemId = 3, Qty = 10 },
+            new Sales { InvNo = 2, ItemId = 2, Qty = 20 },
+            new Sales { InvNo = 3, ItemId = 3, Qty = 500 },
+            new Sales { InvNo = 4, ItemId = 4, Qty = 20 },
+            new Sales { InvNo = 5, ItemId = 3, Qty = 100 },
+            new Sales { InvNo = 6, ItemId = 4, Qty = 50 }
+        };
+
+        // Perform inner join and get distinct items
+        var distinctItemsInSales = (from item in itemList
+                                    join sale in salesList
+                                    on item.ItemId equals sale.ItemId
+                                    select item)
+                                    .Distinct()
+                                    .ToList();
+
+        // Output the results
+        Console.WriteLine("Distinct Items In Sales:");
+        foreach (var item in distinctItemsInSales)
+        {
+            Console.WriteLine($"ItemId: {item.ItemId}, Description: {item.ItemDes}");
         }
         }
 
