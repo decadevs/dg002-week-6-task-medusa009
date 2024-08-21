@@ -1,0 +1,15 @@
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/bin/Debug/net8.0/DGNet002_Week6_Task
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/bin/Debug/net8.0/DGNet002_Week6_Task.deps.json
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/bin/Debug/net8.0/DGNet002_Week6_Task.runtimeconfig.json
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/bin/Debug/net8.0/DGNet002_Week6_Task.dll
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/bin/Debug/net8.0/DGNet002_Week6_Task.pdb
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.AssemblyInfoInputs.cache
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.AssemblyInfo.cs
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.csproj.CoreCompileInputs.cache
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.sourcelink.json
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.dll
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/refint/DGNet002_Week6_Task.dll
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.pdb
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/DGNet002_Week6_Task.genruntimeconfig.cache
+/Users/oracle/Documents/GitHub/dg002-week-6-task-medusa009/DGNet002_Week6_Task/obj/Debug/net8.0/ref/DGNet002_Week6_Task.dll
